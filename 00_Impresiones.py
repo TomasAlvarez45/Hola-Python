@@ -7,9 +7,9 @@ de varias lineas en python'''
 '''Impresion en pantalla'''
 
 #asi se imprime en pantalla una cadena de texto
-print ("Viva Peron!!!!")
+print ("Hola Mundo")
 #tambien se puede usar comillas simples
-print ('Viva Peron!!!!')
+print ('Hola Mundo')
 
 #asi se imprime en pantalla un numero
 print (2024)
@@ -39,6 +39,7 @@ print (type({"clave": "valor"}))  # Tipo "Dictionary"
 print (type({1, 2, 3}))  # Tipo "Set"
 print (type(1+2j)) # Tipo "Complex"
 print (type(print("Hola"))) # Tipo "NoneType"
+
 
 
 
