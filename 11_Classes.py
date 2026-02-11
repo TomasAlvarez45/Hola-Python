@@ -6,16 +6,16 @@ class Person:
 print(Person)
 print(Person())
 
-class Epstein:
+class Eduardo:
     def __init__(self):
-        self.name = "Jeffrey"
-        self.surname = "Epstein"
+        self.name = "Eduardo"
+        self.surname = "Lopez"
     
-mi_persona = Epstein()
+mi_persona = Eduardo()
 
 print(f"{mi_persona.name} {mi_persona.surname}")
 
-class Diddy:
+class Fernando:
     def __init__(self, name, surname, alias = "Sin Alias Conocido"):
         self.full_name = f"{name} {surname} ({alias})" #propiedad publica
         self.__name = name #Propiedad privada
@@ -26,19 +26,18 @@ class Diddy:
     def walk(self):
         print(f"{self.full_name} esta caminando")
     
-nice_try_diddy = Diddy("P", "Diddy")
+Persona_Fernando = Fernando("Fernando", "Nisme")
 
 
 
-print(nice_try_diddy.full_name)
+print(Persona_Fernando.full_name)
 
-nice_try_diddy.walk()
+Persona_Fernando.walk()
 
-mi_otra_persona = Diddy("Justin", "Bieber", "Elgay")
+mi_otra_persona = Fernando("Joaquin", "Lopez", "el flaco")
 
-print (nice_try_diddy.get_name())
+print (Persona_Fernando.get_name())
 
 print(mi_otra_persona.full_name)
 mi_otra_persona.walk()
-mi_otra_persona.full_name = "Juan domingo peron (el Violador)"
-
+mi_otra_persona.full_name = "Arnalo gomez (El Clavadista)"
